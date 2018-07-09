@@ -1,0 +1,20 @@
+.dark-bg {
+	background-color: rgba(0,0,0,.8);
+}
+
+.btn {
+	border-top: 3px solid transparent;
+	opacity: .9;
+	display: block !important;
+}
+
+.btn:hover {
+	cursor: pointer;
+	border-top: 1px solid black;
+	opacity: .8;
+}
+
+.btn:active {
+	opacity: .7;
+	border-top: 1px solid white;
+}

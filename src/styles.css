@@ -1,1 +1,40 @@
-/* You can add global styles to this file, and also import other style files */
+.card-panel {
+	border-top: 10px solid transparent;
+	opacity: .9;
+	display: block !important;
+}
+
+.card-panel:hover {
+	cursor: pointer;
+	border-top: 7px solid black;
+	opacity: .8;
+}
+
+.card-panel:active {
+	opacity: .7;
+	border-top: 7px solid white;
+}
+
+.caption {
+	left: 0 !important;
+	width: 100% !important;
+}
+
+.dark-bg {
+	background-color: rgba(0,0,0,.8);
+}
+
+.px-32 {
+	padding-left: 32px;
+	padding-right: 32px;
+}
+
+.px-16 {
+	padding-left: 16px !important;
+	padding-right: 16px !important;
+}
+
+.mx-32 {
+	margin-left: 32px !important;
+	margin-right: 32px !important;
+}
